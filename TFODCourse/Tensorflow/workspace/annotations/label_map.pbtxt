@@ -1,0 +1,8 @@
+item { 
+	name:'crossing'
+	id:1
+}
+item { 
+	name:'waiting'
+	id:2
+}
