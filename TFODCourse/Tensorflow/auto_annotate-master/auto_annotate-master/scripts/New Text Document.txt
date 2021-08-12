@@ -1,0 +1,1 @@
+To run script: python scripts/detection_img_tf2.py --saved_model graphs/saved_model --labelmap graphs/label_map.pbtxt --imgs images/
