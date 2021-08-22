@@ -57,6 +57,7 @@ detect_fn = tf.saved_model.load(args.saved_model)
 
 for img in os.listdir(args.imgs):
     file_name = img.split('.')[0]
+    print(file_name)
     img = np.array(ImageOps.exif_transpose(Image.open(args.imgs + '/' + img)))
     result_img = infer_images(detect_fn, img, category_index, file_name)
     result_img = cv2.cvtColor(result_img, cv2.COLOR_BGR2RGB)
