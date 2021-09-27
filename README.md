@@ -86,3 +86,11 @@ The following will go through the steps to perform pedestrian detection on your 
 - ```"[ACCESS DENIED] error code #"``` Jupyter cannot access the required file, use ```os.chmod(PATH_TO_FILE, 0o777)``` to make it readable.
 
 - ERROR---
+
+---
+# Dev log
+* We used ["ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8"](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz "download link") pretrained model mainly for its speed advantage(22ms) over other models due to limited computing power of Raspberry Pi 4. The mean average precision(mAP) of this particular model is 22.2, which is not the best one in model zoo but enough as we can only detecting pedestrians for now. [source](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md "model zoo link")
+
+* As we collect more image data, later versions of the model is trained based on latest previous version to avoid training from scratch everytime new data point is introduced.
+
+* With a 0.617 smoothing rate, the classification loss decreased over 10k steps but fluctuates as if the model is not improving due to small dateset. ![classfication_loss_10k](readme_images/classification_loss_10k.png)   
