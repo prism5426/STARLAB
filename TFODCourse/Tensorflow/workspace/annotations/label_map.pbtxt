@@ -1,8 +1,4 @@
 item { 
-	name:'crossing'
+	name:'pedestrian'
 	id:1
-}
-item { 
-	name:'waiting'
-	id:2
 }

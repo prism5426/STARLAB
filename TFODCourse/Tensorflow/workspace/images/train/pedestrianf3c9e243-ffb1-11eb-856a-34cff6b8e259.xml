@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>train</folder>
 	<filename>pedestrianf3c9e243-ffb1-11eb-856a-34cff6b8e259.jpg</filename>
-	<path>C:\Users\liyij\Desktop\STARLAB\TFODCourse\Tensorflow\auto_annotate-master\auto_annotate-master\images\pedestrianf3c9e243-ffb1-11eb-856a-34cff6b8e259.jpg</path>
+	<path>C:\Users\liyij\Desktop\STARLAB\TFODCourse\Tensorflow\workspace\images\train\pedestrianf3c9e243-ffb1-11eb-856a-34cff6b8e259.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>crossing</name>
+		<name>pedestrian</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>crossing</name>
+		<name>pedestrian</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

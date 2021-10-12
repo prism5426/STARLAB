@@ -1,7 +1,7 @@
 <annotation>
-	<folder>pedestrian</folder>
+	<folder>train</folder>
 	<filename>pedestrian.62dadfa4-f377-11eb-8b8f-34cff6b8e259.jpg</filename>
-	<path>C:\Users\liyij\OneDrive - UW\UW\Research\STAR Lab\TensorflowObjectDetection\TFODCourse\Tensorflow\workspace\images\collectedimages\pedestrian\pedestrian.62dadfa4-f377-11eb-8b8f-34cff6b8e259.jpg</path>
+	<path>C:\Users\liyij\Desktop\STARLAB\TFODCourse\Tensorflow\workspace\images\train\pedestrian.62dadfa4-f377-11eb-8b8f-34cff6b8e259.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>crossing</name>
+		<name>pedestrian</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>crossing</name>
+		<name>pedestrian</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>waiting</name>
+		<name>pedestrian</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>waiting</name>
+		<name>pedestrian</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>waiting</name>
+		<name>pedestrian</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
